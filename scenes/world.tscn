@@ -5,11 +5,11 @@
 
 [node name="World" type="Node2D"]
 
-[node name="BG" type="ColorRect" parent="."]
+[node name="ColorRect" type="ColorRect" parent="."]
 visible = false
-offset_right = 1149.0
-offset_bottom = 648.0
-color = Color(0.611765, 0.176471, 0.909804, 0.4)
+offset_right = 1153.0
+offset_bottom = 649.0
+color = Color(0.262745, 0.0901961, 0.32549, 1)
 
 [node name="platform" parent="." instance=ExtResource("1_q4xfb")]
 position = Vector2(946, 465)
@@ -24,4 +24,4 @@ position = Vector2(151, 455)
 position = Vector2(150, 117)
 
 [node name="object" parent="." instance=ExtResource("2_wyeiy")]
-position = Vector2(542, 287)
+position = Vector2(594, 304)
